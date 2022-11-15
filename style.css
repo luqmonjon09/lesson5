@@ -1,0 +1,343 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px solid #ddd;
+    padding: 0 120px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    text-transform: uppercase;
+    flex: 1;
+}
+.collection{
+    display: flex;
+    list-style: none;
+}
+.item{
+    margin-left: 40px;
+}
+.banner{
+    padding: 59px 128px;
+    display: flex;
+}
+.banner_image{
+    width: 55%;
+    height: 474px;
+    background: url("./IMAGE\ \(23\).png") no-repeat center/cover;
+}
+.banner_text{
+    width: 45%;
+    height: 474px;
+    padding-left: 51px;
+}
+.banner_top{
+    font-family: 'Libre Franklin';
+    font-weight: 400;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #999999;
+    margin-bottom: 18px;
+}
+.banner_title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'Tenor Sans'
+}
+.banner_desc{
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    padding-top: 27px;  
+}
+.banner_link{
+    display: block;
+    margin-top: 28px;
+    text-decoration: none;
+    font-family: 'Libre Franklin';
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.three_items{
+    padding: 50px 120px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 340px;
+    margin: 10px;
+}
+.card img{
+    width: 100%;
+}
+.card_status{
+    padding: 20px 0;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+}
+.card_title{
+    width: 87%;
+    font-family: 'Tenor Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+.card_link{
+    font-family: 'Libre Franklin';
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+.four_items{
+    padding: 50px 120px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card1{
+    width: 235px;
+    margin: 20px;
+}
+.card1 img{
+    width: 100%;
+}
+.card1 p{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+    padding-bottom: 18px;
+}
+.card1 h3{
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+.card1_link{
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 10px;
+    font-weight: 700;
+}
+.btn{
+    width: 205px;
+    height: 54px;
+    background: #fff;
+    border: 1px solid #000000;
+    margin: auto;
+    margin-top: 90px;
+}
+.btn p{
+    font-family: 'Libre Franklin';
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.hr{
+    width: 80%;
+    margin: auto;
+    background: #E6E6E6;
+    border-radius: 0px;
+    margin-top: 90px;
+}
+.p{
+    margin-left: 155px;
+    padding-top: 90px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+    font-size: 10px;
+}
+.second_items{
+    padding: 30px 132px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card2{
+    width: 45%;
+    margin: 20px;
+}
+.card2 img{
+    width: 100%;
+    padding-bottom: 25px;   
+}
+.card2 p{
+    font-family: 'Libre Franklin';
+     font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+    padding-bottom: 18px;
+}
+.card2 h3{
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+.footer{
+    width: 100%;
+    height: 617px;
+    background: #000000;
+    margin-top: 50px;
+    padding-top: 90px;
+}
+.img{
+    width: 100%;
+    margin-left: 120px;
+    display: flex;
+}
+span{
+    width: 275px;
+}
+.footer span{
+    font-family: 'Libre Franklin';
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+.hr1{
+    width: 80%;
+    margin: 62px 120px;
+    color: #4D4D4D;
+}
+.footer_card{
+    width: 80%;
+    height: 294px;
+    margin: 60px 120px;    
+}
+.footer_navbar{
+    width: 100%;
+    display: flex;
+}
+.footer_navbar p{
+    color: #666666;
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+.p0{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666; 
+    font-size: 10px;
+}
+.p1{
+    margin-left: 61%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666; 
+    font-size: 10px;
+}
+.ol{
+    width: 17%;
+}
+.ul{
+    height: 78px;
+    display: flex;
+}
+.itom{
+    color: #fff;
+    list-style: none;
+    line-height: 2;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.lu{
+    flex: 1;
+    display: flex;
+    padding-top: 10px;
+}
+.btn1{
+    width: 221px;
+    height: 48px;
+    background: #fff;
+    color: #666666;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 10px;
+    text-indent: 20px;
+    outline: none;
+}
+.btn2{
+    width: 79px;
+    height: 48px;
+    background: #141414;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+}
+.ol1{
+    width: 17%;
+}
+.ul2{
+    width: 65%;
+    margin-top: 60px;
+    display: flex;
+}
+
+.ol2{
+    width: 26%;
+}
+.item2{
+    color: #fff;
+    line-height: 2;
+    list-style: none;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.colloction2:first-child .item2:first-child{
+    color: #4D4D4D;
+    text-transform: uppercase;
+    font-size: 10px;
+}
